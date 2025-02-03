@@ -6,6 +6,8 @@ async function main() {
     console.log(colors.bold.green('Welcome to the Chatbot Program'));
     console.log(colors.bold.green('You can start chatting with the bot.'));
 
+    const chatHistory = [] // Store conversation history
+
     while(true){
         const userInput = readlineSync.question(colors.yellow('You: '))
 
