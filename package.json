@@ -1,0 +1,19 @@
+{
+  "name": "chatgpt_bot_with_nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.82.0",
+    "readline-sync": "^1.4.10"
+  }
+}
